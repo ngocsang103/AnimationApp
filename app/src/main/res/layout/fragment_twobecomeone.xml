@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transitions_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnButton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/accent"
+        android:padding="24dp"
+        android:text="TAP ON ME"
+        android:textColor="@color/second_accent"
+        />
+
+    <Button
+        android:id="@+id/btnButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:background="@color/accent"
+        android:padding="24dp"
+        android:text="TAP ON ME"
+        android:textColor="@color/second_accent"
+        />
+
+    <Button
+        android:id="@+id/btnButton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent"
+        android:padding="24dp"
+        android:text="TAP ON ME"
+        android:textColor="@color/second_accent"
+        android:visibility="invisible"
+        />
+
+</FrameLayout>
